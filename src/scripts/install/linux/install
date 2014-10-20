@@ -1,0 +1,15 @@
+#!/bin/bash
+
+CURRENTUSER=`who am i | awk '{print $1}'`
+cp -f bin/pid /usr/bin/
+cp -rf .pid /home/$CURRENTUSER/
+if [ `getconf LONG_BIT` = "64" ]
+then
+    mkdir -p /usr/lib64/pid
+    cp -rf lib/* /usr/lib64/pid
+else
+    mkdir -p /usr/lib/pid
+    cp -rf lib/* /usr/lib/pid
+fi
+chown $CURRENTUSER.users /home/$CURRENTUSER/.pid -R 
+chmod +x /usr/bin/pid

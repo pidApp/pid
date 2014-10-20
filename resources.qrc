@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/images/pid/icon.ico</file>
+        <file>resources/images/pid/icon.png</file>
+        <file>resources/images/pid/icon.rc</file>
+        <file>resources/images/pid/logo.png</file>
+        <file>resources/images/pid/network.png</file>
+        <file>resources/images/pid/networkError.png</file>
+        <file>resources/images/available/directorNotAvailable.png</file>
+        <file>resources/images/available/posterNotAvailable.png</file>
+        <file>resources/images/available/coverNotAvailable.png</file>
+        <file>resources/images/available/screensNotAvailable.png</file>
+        <file>resources/images/output/frame.png</file>
+        <file>resources/images/output/openScene.png</file>
+        <file>resources/font/pid.ttf</file>
+        <file>src/qml/main.qml</file>
+        <file>src/qml/AskPassword.qml</file>
+        <file>src/qml/Update.qml</file>
+        <file>src/qml/Finder.qml</file>
+        <file>src/qml/Output.qml</file>
+        <file>src/qml/SetPassword.qml</file>
+        <file>src/qml/Filters.qml</file>
+        <file>src/qml/Button.qml</file>
+        <file>src/qml/ButtonFilter.qml</file>
+        <file>src/qml/Help.qml</file>
+        <file>src/qml/News.qml</file>
+        <file>src/qml/ProgressBar.qml</file>
+        <file>src/qml/ErrorDb.qml</file>
+        <file>src/qml/Wait.qml</file>
+        <file>src/qml/Selectors.qml</file>
+        <file>src/qml/ButtonScene.qml</file>
+    </qresource>
+</RCC>
